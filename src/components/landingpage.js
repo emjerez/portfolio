@@ -18,7 +18,7 @@ class Landing extends Component {
 
             <hr/>
 
-            <p>HTML/CSS | JavaScript | React.js | Ruby on Rails </p>
+            <p> HTML/CSS | JavaScript | React.js | Ruby on Rails </p>
 
           <div className="social-links">
 

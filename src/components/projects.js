@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl'
 
+
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -12,8 +13,9 @@ class Projects extends Component {
     if(this.state.activeTab === 0){
       return(
         <div className="projects-grid" >
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png) center / cover'}}> Rails Project #1</CardTitle>
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '30%'}}>
+          <img src={require('./images/bake-away.png')} style={{height:'100%', width: '100%', position: 'relative,', paddingTop: '40px', paddingBottom: '40px'}}/>
+
           <CardText>
             <div class="mdl-card__supporting-text">
             BakeAway
@@ -33,8 +35,8 @@ class Projects extends Component {
 
 
 
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png) center / cover'}} > Rails Project #2</CardTitle>
+        <Card Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '30%'}}>
+          <img src={require('./images/bake-away.png')} style={{height:'100%', width: '100%', position: 'relative,', paddingTop: '40px', paddingBottom: '40px'}}/>
           <CardText>
             <div class="mdl-card__supporting-text">
             Lorem Ipsum
@@ -55,8 +57,8 @@ class Projects extends Component {
     } else if(this.state.activeTab === 1){
       return(
           <div className="projects-grid" >
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png) center / cover'}} > React Project #1</CardTitle>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '30%'}}>
+            <img src={require('./images/bake-away.png')} style={{height:'100%', width: '100%', position: 'relative,', paddingTop: '40px', paddingBottom: '40px'}}/>
             <CardText>
               <div class="mdl-card__supporting-text">
               ICD-10 Search Tool
@@ -73,8 +75,9 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png) center / cover'}} > React Project #2</CardTitle>
+          
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '30%'}}>
+            <img src={require('./images/bake-away.png')} style={{height:'100%', width: '100%', position: 'relative,', paddingTop: '40px', paddingBottom: '40px'}}/>
             <CardText>
               <div class="mdl-card__supporting-text">
               Weather App
@@ -102,8 +105,8 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-          <Tab style={{color: 'white', fontFamily: 'Open Sans', fontSize: '20px'}}>Ruby on Rails</Tab>
-        <Tab style={{color: 'white', fontFamily: 'Open Sans', fontSize: '20px'}}>React</Tab>
+          <Tab style={{color: 'white', fontFamily: 'Open Sans', fontSize: '15px'}}>Ruby on Rails</Tab>
+        <Tab style={{color: 'white', fontFamily: 'Open Sans', fontSize: '15px'}}>React</Tab>
         </Tabs>
 
           <Grid>

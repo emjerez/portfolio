@@ -187,5 +187,21 @@ i.fa.fa-skype {
 
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+div.mdl-tabs__tab-bar {
+  text-transform: lowercase;
+}
+
+div.mdl-card__supporting-text {
+  color: rgba(0,0,0, 0.54);
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    line-height: 18px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: .2em 16px;
+    width: 90%;
 }

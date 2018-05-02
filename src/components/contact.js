@@ -12,7 +12,7 @@ class Contact extends Component {
             <img
               src="http://www.avatarys.com/var/albums/Cool-Avatars/Facebook-Avatars/500x500-facebook-avatars/cute-fluffy-monster-facebook-avatar-500x500.png?m=1455128230"
               alt="avatar"
-              style={{height: '250px', paddingTop: '5em'}}
+              style={{height: '250px', paddingTop: '3em'}}
               />
             <h2 style={{width: '75%', margin: 'auto', paddingTop: '1em', fontSize: '40px'}}> Ethel Jerez </h2>
 
@@ -39,13 +39,6 @@ class Contact extends Component {
             </ListItemContent>
           </ListItem>
 
-
-          <ListItem>
-          <ListItemContent style={{fontSize: '20px', fontFamily: 'Open Sans'}}>
-            <i className='fa fa-skype' aria-hidden="true"/>
-            Skype Id: emjerez
-          </ListItemContent>
-        </ListItem>
 
             </List>
             </div>

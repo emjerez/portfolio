@@ -12,18 +12,18 @@ class App extends Component {
           <Layout fixedHeader>
               <Header className= "header-color" title=" " scroll>
                   <Navigation>
-                    <Link to="/landingpage">Home</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/landingpage">HOME</Link>
+                    <Link to="/about">ABOUT</Link>
+                    <Link to="/projects">PROJECTS</Link>
+                    <Link to="/contact">CONTACT</Link>
                   </Navigation>
               </Header>
               <Drawer title=" ">
                   <Navigation className="nav-bar">
-                    <Link to="/landingpage">Home</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/landingpage">HOME</Link>
+                    <Link to="/about">ABOUT</Link>
+                    <Link to="/projects">PROJECTS</Link>
+                    <Link to="/contact">CONTACT</Link>
                   </Navigation>
               </Drawer>
               <Content>
