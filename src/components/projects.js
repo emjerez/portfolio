@@ -11,7 +11,7 @@ class Projects extends Component {
 
     if(this.state.activeTab === 0){
       return(
-        <div className="projects-grid">
+        <div className="projects-grid" >
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png) center / cover'}} > Rails Project #1</CardTitle>
           <CardText>

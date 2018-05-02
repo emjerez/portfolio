@@ -69,6 +69,11 @@ padding: 8px;
 
 .projects-grid {
   display: flex;
+  width: 100%;
+  height: 600px;
+   position: relative;
+    margin: auto;
+    background: #0D1020;
 }
 
 .contact-body {
@@ -144,6 +149,7 @@ padding: 0 24px;
 
 .mdl-layout__drawer-button {
   color: black;
+  background: #0D1020;
 }
 
 div.mdl-grid {
@@ -160,6 +166,11 @@ div.contact-body {
 
 span.mdl-list__item-primary-content {
   color: white;
+  justify-content: center;
+}
+
+ul.mdl-list {
+  justify-content: center;
 }
 
 i.fa.fa-phone-square {
@@ -167,5 +178,9 @@ i.fa.fa-phone-square {
 }
 
 i.fa.fa-envelope {
+  font-size: 60px;
+}
+
+i.fa.fa-skype {
   font-size: 60px;
 }
