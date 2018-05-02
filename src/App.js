@@ -8,17 +8,19 @@ class App extends Component {
   render() {
     return (
 
-      <div style={{height: '300px', position: 'relative'}}>
+      <div classtyle={{height: '300px', position: 'relative'}}>
           <Layout fixedHeader>
-              <Header className= "header-color"title={<span><span style={{ color: '#ddd' }}></span><strong>LOGO</strong></span>}>
+              <Header className= "header-color" title=" " scroll>
                   <Navigation>
+                    <Link to="/landingpage">Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/contact">Contact</Link>
                   </Navigation>
               </Header>
-              <Drawer title="Title">
-                  <Navigation>
+              <Drawer title=" ">
+                  <Navigation className="nav-bar">
+                    <Link to="/landingpage">Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/contact">Contact</Link>
