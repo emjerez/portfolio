@@ -24,8 +24,8 @@ class Projects extends Component {
 
           <CardActions border>
             <div class="mdl-card__actions">
-            <Button colored href="https://github.com/emjerez/BakeAway-App.git" >GitHub</Button>
-            <Button colored>LiveDemo</Button>
+            <Button style={{fontFamily: 'Fira Mono'}} colored href="https://github.com/emjerez/BakeAway-App.git" >GitHub</Button>
+            <Button style={{fontFamily: 'Fira Mono'}} colored>LiveDemo</Button>
             </div>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
@@ -36,7 +36,7 @@ class Projects extends Component {
 
 
         <Card Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '30%'}}>
-          <img src={require('./images/bake-away.png')} style={{height:'100%', width: '100%', position: 'relative,', paddingTop: '40px', paddingBottom: '40px'}}/>
+          
           <CardText>
             <div class="mdl-card__supporting-text">
             Lorem Ipsum
@@ -44,8 +44,8 @@ class Projects extends Component {
           </CardText>
           <CardActions border>
             <div class="mdl-card__actions">
-            <Button colored href="">GitHub</Button>
-            <Button colored>LiveDemo</Button>
+            <Button style={{fontFamily: 'Fira Mono'}} colored href="">GitHub</Button>
+            <Button style={{fontFamily: 'Fira Mono'}} colored>LiveDemo</Button>
             </div>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
@@ -58,7 +58,7 @@ class Projects extends Component {
       return(
           <div className="projects-grid" >
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '30%'}}>
-            <img src={require('./images/bake-away.png')} style={{height:'100%', width: '100%', position: 'relative,', paddingTop: '40px', paddingBottom: '40px'}}/>
+            <img src={require('./images/ICD10.png')} style={{height:'100%', width: '100%', position: 'relative,', paddingTop: '40px', paddingBottom: '40px'}}/>
             <CardText>
               <div class="mdl-card__supporting-text">
               ICD-10 Search Tool
@@ -66,8 +66,8 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <div class="mdl-card__actions">
-              <Button colored href="https://github.com/emjerez/ICD-10---Search-Tool-React-App---Final-Project.git">GitHub</Button>
-              <Button colored>LiveDemo</Button>
+              <Button style={{fontFamily: 'Fira Mono'}} colored href="https://github.com/emjerez/ICD-10---Search-Tool-React-App---Final-Project.git">GitHub</Button>
+              <Button style={{fontFamily: 'Fira Mono'}} colored>LiveDemo</Button>
               </div>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -75,7 +75,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          
+
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '30%'}}>
             <img src={require('./images/bake-away.png')} style={{height:'100%', width: '100%', position: 'relative,', paddingTop: '40px', paddingBottom: '40px'}}/>
             <CardText>
@@ -85,8 +85,8 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <div class="mdl-card__actions">
-              <Button colored href="https://github.com/emjerez/ICD-10---Search-Tool-React-App---Final-Project.git">GitHub</Button>
-              <Button colored>LiveDemo</Button>
+              <Button style={{fontFamily: 'Fira Mono'}} colored href="https://github.com/emjerez/ICD-10---Search-Tool-React-App---Final-Project.git">GitHub</Button>
+              <Button style={{fontFamily: 'Fira Mono'}} colored>LiveDemo</Button>
               </div>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>

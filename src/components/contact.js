@@ -12,19 +12,19 @@ class Contact extends Component {
             <img
               src="http://www.avatarys.com/var/albums/Cool-Avatars/Facebook-Avatars/500x500-facebook-avatars/cute-fluffy-monster-facebook-avatar-500x500.png?m=1455128230"
               alt="avatar"
-              style={{height: '250px', paddingTop: '3em'}}
+              style={{height: '280px', paddingTop: '3em'}}
               />
-            <h2 style={{width: '75%', margin: 'auto', paddingTop: '1em', fontSize: '40px'}}> Ethel Jerez </h2>
+            <h2 style={{width: '75%', margin: 'auto', paddingTop: '1em', fontSize: '35px'}}> Ethel Jerez </h2>
 
           </Cell>
           <Cell col={6} style={{justifyContent: 'center'}}>
-            <h2 style={{fontFamily: 'Open Sans', color: 'white', fontSize: '40px'}}>Contact Me</h2>
+            <h2 style={{fontFamily: 'Fira Mono', color: 'white', fontSize: '40px'}}>Contact Me</h2>
             <hr/>
 
           <div className="contact-list">
             <List >
               <ListItem>
-                <ListItemContent style={{fontSize: '25px', fontFamily: 'Open Sans'}}>
+                <ListItemContent style={{fontSize: '23px', fontFamily: 'Fira Mono'}}>
                   <i className='fa fa-phone-square' aria-hidden="true"/>
                   (786) 376-2406
                 </ListItemContent>
@@ -33,9 +33,10 @@ class Contact extends Component {
 
 
             <ListItem>
-            <ListItemContent style={{fontSize: '13px', fontFamily: 'Open Sans'}}>
-              <i className='fa fa-envelope' aria-hidden="true"/>
-              ejerez.webdev@gmail.com
+            <ListItemContent style={{fontSize: '19px', fontFamily: 'Fira Mono'}}>
+              <i className='fa fa-envelope' aria-hidden="true" />
+
+              <a className="email" href="mailto:ejerez.webdev@gmail.com">ejerez.webdev@gmail.com</a>
             </ListItemContent>
           </ListItem>
 

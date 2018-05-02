@@ -1,45 +1,24 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-class Landing extends Component {
+
+
+class About extends Component {
   render() {
     return(
-      <div style={{width: '100%', margin: 'auto'}}>
-        <Grid className="Landing-grid">
+
+      <div style={{width: '100%', height: '100%', position: 'absolute', margin: 'auto', background: 'url(https://pre00.deviantart.net/93a9/th/pre/i/2016/019/5/6/eat__sleep__code__repeat__alternative_version__by_johnslegers-d9ojp49.png) center / cover'}}>
+        <Grid className="about-grid">
           <Cell col={12}>
-            <img
-              src="https://www.ardentcreative.com/wp-content/uploads/2013/06/color_web-design-icon-1.png"
-              alt="avatar"
-              className="avatar-img"
-              />
-
-            <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
-
-            <hr/>
-
-            <p> HTML/CSS | JavaScript | React.js | Ruby on Rails </p>
-
-          <div className="social-links">
-
-              {/* Linkedin */}
-              <a href="https://www.linkedin.com/in/ethel-jerez/" rel="noopener noreferrer" target="_blank">
-                <i className="fa fa-linkedin-square" aria-hidden="true" />
-              </a>
-
-              {/* Github */}
-              <a href="https://github.com/emjerez" rel="noopener noreferrer" target="_blank">
-                <i className="fa fa-github-square" aria-hidden="true" />
-              </a>
-
-            </div>
+          <div className="banner-text">
+          <h1 style={{fontFamily: 'Fira Mono', fontSize: '50px', textAlign: 'center', paddingTop: '80px'}}> &lt;Ethel Jerez&gt; </h1>
           </div>
-
           </Cell>
         </Grid>
       </div>
+
     )
   }
 }
 
-export default Landing;
+export default About;

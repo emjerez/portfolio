@@ -25,10 +25,10 @@ background:#0D1020;
 }
 
 .banner-text h1{
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 45px;
+
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Fira Mono', monospace;
 }
 
 .banner-text hr{
@@ -39,10 +39,10 @@ background:#0D1020;
 
 .banner-text p{
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   padding: 1em;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Fira Mono', monospace;
 }
 
 .social-links{
@@ -60,7 +60,7 @@ padding: 8px;
 }
 
 .nav-bar {
-  font-family: 'Open Sans', sans-serif;
+font-family: 'Fira Mono', monospace;
   font-size: 20px;
   font-weight: bold;
   color: #000000;
@@ -98,12 +98,12 @@ padding: 8px;
 }
 
 .contact-grid h2{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Fira Mono', monospace;
   color: white;
 }
 
 .contact-grid p{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Fira Mono', monospace;
   font-weight: bold;
   color: white;
 }
@@ -136,6 +136,10 @@ line-height: 64px;
 padding: 0 24px;
 }
 
+.mdl-layout__header-row .mdl-navigation__link {
+  font-family: 'Fira Mono', monospace;
+}
+
 .mdl-layout__header.mdl-layout__header--scroll.header-color {
   background:#0D1020;
 }
@@ -143,7 +147,7 @@ padding: 0 24px;
 .mdl-layout-title {
   color: #0D1020;
   font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Fira Mono', monospace;
 }
 
 
@@ -171,6 +175,7 @@ span.mdl-list__item-primary-content {
 
 ul.mdl-list {
   justify-content: center;
+  padding-top: 40px;
 }
 
 i.fa.fa-phone-square {
@@ -178,15 +183,15 @@ i.fa.fa-phone-square {
 }
 
 i.fa.fa-envelope {
-  font-size: 60px;
+  font-size: 53px;
+
+  position: relative;
+  padding-left: 1.3em;
 }
 
-i.fa.fa-skype {
-  font-size: 70px;
-}
 
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Fira Mono', monospace;
   font-size: 18px;
 }
 
@@ -199,9 +204,15 @@ div.mdl-card__supporting-text {
     font-size: 20px;
     font-weight: bold;
     justify-content: center;
-    line-height: 18px;
+    line-height: 30px;
     overflow: hidden;
-    margin-bottom: 20px;
-    padding: .2em 16px;
+    padding-top: .2px;
+    padding-bottom: .2px;
+    margin-bottom: 10px;
     width: 90%;
+    font-family: 'Fira Mono', monospace;
+}
+
+.email {
+  color: white;
 }
