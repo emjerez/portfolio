@@ -14,11 +14,11 @@ class Contact extends Component {
               alt="avatar"
               style={{height: '250px', paddingTop: '5em'}}
               />
-            <p style={{width: '75%', margin: 'auto', paddingTop: '1em', fontSize: '40px'}}> Ethel Jerez </p>
+            <h2 style={{width: '75%', margin: 'auto', paddingTop: '1em', fontSize: '40px'}}> Ethel Jerez </h2>
 
           </Cell>
           <Cell col={6} style={{justifyContent: 'center'}}>
-            <h2 style={{fontFamily: 'Open Sans', fontWeight: 'bold', color: 'white', fontSize: '40px'}}>Contact Me</h2>
+            <h2 style={{fontFamily: 'Open Sans', color: 'white', fontSize: '40px'}}>Contact Me</h2>
             <hr/>
 
           <div className="contact-list">

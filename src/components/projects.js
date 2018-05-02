@@ -13,16 +13,16 @@ class Projects extends Component {
       return(
         <div className="projects-grid" >
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png) center / cover'}} > Rails Project #1</CardTitle>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png) center / cover'}}> Rails Project #1</CardTitle>
           <CardText>
             <div class="mdl-card__supporting-text">
-            Lorem Ipsum
+            BakeAway
           </div>
           </CardText>
 
           <CardActions border>
             <div class="mdl-card__actions">
-            <Button colored>GitHub</Button>
+            <Button colored href="https://github.com/emjerez/BakeAway-App.git" >GitHub</Button>
             <Button colored>LiveDemo</Button>
             </div>
           </CardActions>
@@ -42,7 +42,7 @@ class Projects extends Component {
           </CardText>
           <CardActions border>
             <div class="mdl-card__actions">
-            <Button colored>GitHub</Button>
+            <Button colored href="">GitHub</Button>
             <Button colored>LiveDemo</Button>
             </div>
           </CardActions>
@@ -54,7 +54,45 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 1){
       return(
-        <div><h1>This is React</h1></div>
+          <div className="projects-grid" >
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png) center / cover'}} > React Project #1</CardTitle>
+            <CardText>
+              <div class="mdl-card__supporting-text">
+              ICD-10 Search Tool
+            </div>
+            </CardText>
+            <CardActions border>
+              <div class="mdl-card__actions">
+              <Button colored href="https://github.com/emjerez/ICD-10---Search-Tool-React-App---Final-Project.git">GitHub</Button>
+              <Button colored>LiveDemo</Button>
+              </div>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png) center / cover'}} > React Project #2</CardTitle>
+            <CardText>
+              <div class="mdl-card__supporting-text">
+              Weather App
+            </div>
+            </CardText>
+            <CardActions border>
+              <div class="mdl-card__actions">
+              <Button colored href="https://github.com/emjerez/ICD-10---Search-Tool-React-App---Final-Project.git">GitHub</Button>
+              <Button colored>LiveDemo</Button>
+              </div>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+</div>
+
       )
     }
   }
@@ -64,8 +102,8 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-          <Tab style={{color: 'white', fontFamily: 'Open Sans'}}>Ruby on Rails</Tab>
-        <Tab style={{color: 'white', fontFamily: 'Open Sans'}}>React</Tab>
+          <Tab style={{color: 'white', fontFamily: 'Open Sans', fontSize: '20px'}}>Ruby on Rails</Tab>
+        <Tab style={{color: 'white', fontFamily: 'Open Sans', fontSize: '20px'}}>React</Tab>
         </Tabs>
 
           <Grid>

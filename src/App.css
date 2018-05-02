@@ -182,5 +182,10 @@ i.fa.fa-envelope {
 }
 
 i.fa.fa-skype {
-  font-size: 60px;
+  font-size: 70px;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }

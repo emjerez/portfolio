@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
 
-      <div classtyle={{height: '300px', position: 'relative'}}>
+      <div classtyle={{height: '300px', position: 'relative', }}>
           <Layout fixedHeader>
               <Header className= "header-color" title=" " scroll>
                   <Navigation>
