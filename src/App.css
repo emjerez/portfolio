@@ -202,17 +202,29 @@ div.mdl-tabs__tab-bar {
 div.mdl-card__supporting-text {
   color: rgba(0,0,0, 0.54);
     font-size: 20px;
-    font-weight: bold;
-    justify-content: center;
+    font-weight: bolder;
+    padding-left: 23px;
+    text-align: center;
     line-height: 30px;
     overflow: hidden;
     padding-top: .2px;
     padding-bottom: .2px;
     margin-bottom: 10px;
-    width: 90%;
+
     font-family: 'Fira Mono', monospace;
 }
 
 .email {
   color: white;
+}
+
+a.mdl-button--raised.mdl-button--colored {
+  background: #0D1020;
+  color: rgb(255,255,255);
+  margin: 10px
+}
+
+button.mdl-button--raised.mdl-button--colored {
+  background: #0D1020;
+color: rgb(255,255,255);
 }

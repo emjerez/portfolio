@@ -13,19 +13,18 @@ class Projects extends Component {
     if(this.state.activeTab === 0){
       return(
         <div className="projects-grid" >
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '30%'}}>
-          <img src={require('./images/bake-away.png')} style={{height:'100%', width: '100%', position: 'relative,', paddingTop: '40px', paddingBottom: '40px'}}/>
 
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '30%'}}>
+          <img src={require('./images/ICD10.png')} style={{height:'100%', width: '100%', position: 'relative,', paddingTop: '40px', paddingBottom: '40px'}}/>
           <CardText>
             <div class="mdl-card__supporting-text">
-            BakeAway
+            ICD-10 Search Tool
           </div>
           </CardText>
-
           <CardActions border>
             <div class="mdl-card__actions">
-            <Button style={{fontFamily: 'Fira Mono'}} colored href="https://github.com/emjerez/BakeAway-App.git" >GitHub</Button>
-            <Button style={{fontFamily: 'Fira Mono'}} colored>LiveDemo</Button>
+            <Button style={{fontFamily: 'Fira Mono'}} raised colored href="https://github.com/emjerez/ICD-10---Search-Tool-React-App---Final-Project.git">GitHub</Button>
+            <Button style={{fontFamily: 'Fira Mono'}} raised colored>LiveDemo</Button>
             </div>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
@@ -34,18 +33,17 @@ class Projects extends Component {
         </Card>
 
 
-
-        <Card Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '30%'}}>
-          
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '30%'}}>
+          <img src={require('./images/weatherapp.png')} style={{height:'100%', width: '100%', position: 'relative,', paddingTop: '40px', paddingBottom: '40px'}}/>
           <CardText>
             <div class="mdl-card__supporting-text">
-            Lorem Ipsum
+            Weather App
           </div>
           </CardText>
           <CardActions border>
             <div class="mdl-card__actions">
-            <Button style={{fontFamily: 'Fira Mono'}} colored href="">GitHub</Button>
-            <Button style={{fontFamily: 'Fira Mono'}} colored>LiveDemo</Button>
+            <Button style={{fontFamily: 'Fira Mono'}} raised colored href="https://github.com/emjerez/weatherapp">GitHub</Button>
+            <Button style={{fontFamily: 'Fira Mono'}} raised colored>LiveDemo</Button>
             </div>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
@@ -57,43 +55,25 @@ class Projects extends Component {
     } else if(this.state.activeTab === 1){
       return(
           <div className="projects-grid" >
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '30%'}}>
-            <img src={require('./images/ICD10.png')} style={{height:'100%', width: '100%', position: 'relative,', paddingTop: '40px', paddingBottom: '40px'}}/>
-            <CardText>
-              <div class="mdl-card__supporting-text">
-              ICD-10 Search Tool
-            </div>
-            </CardText>
-            <CardActions border>
-              <div class="mdl-card__actions">
-              <Button style={{fontFamily: 'Fira Mono'}} colored href="https://github.com/emjerez/ICD-10---Search-Tool-React-App---Final-Project.git">GitHub</Button>
-              <Button style={{fontFamily: 'Fira Mono'}} colored>LiveDemo</Button>
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '30%'}}>
+              <img src={require('./images/bake-away.png')} style={{height:'100%', width: '100%', position: 'relative,', paddingTop: '40px', paddingBottom: '40px'}}/>
+
+              <CardText>
+                <div class="mdl-card__supporting-text">
+                BakeAway
               </div>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+              </CardText>
 
-
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '30%'}}>
-            <img src={require('./images/bake-away.png')} style={{height:'100%', width: '100%', position: 'relative,', paddingTop: '40px', paddingBottom: '40px'}}/>
-            <CardText>
-              <div class="mdl-card__supporting-text">
-              Weather App
-            </div>
-            </CardText>
-            <CardActions border>
-              <div class="mdl-card__actions">
-              <Button style={{fontFamily: 'Fira Mono'}} colored href="https://github.com/emjerez/ICD-10---Search-Tool-React-App---Final-Project.git">GitHub</Button>
-              <Button style={{fontFamily: 'Fira Mono'}} colored>LiveDemo</Button>
-              </div>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-
+              <CardActions border>
+                <div class="mdl-card__actions">
+                <Button style={{fontFamily: 'Fira Mono', justifyContent: 'center'}} raised colored href="https://github.com/emjerez/BakeAway-App.git" >GitHub</Button>
+                <Button style={{fontFamily: 'Fira Mono', justifyContent: 'center'}} raised colored >LiveDemo</Button>
+                </div>
+              </CardActions>
+              <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
 </div>
 
       )
@@ -105,8 +85,8 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-          <Tab style={{color: 'white', fontFamily: 'Open Sans', fontSize: '15px'}}>Ruby on Rails</Tab>
-        <Tab style={{color: 'white', fontFamily: 'Open Sans', fontSize: '15px'}}>React</Tab>
+          <Tab style={{color: 'white', fontFamily: 'Open Sans', fontSize: '15px', justifyContent: 'center'}}>React</Tab>
+        <Tab style={{color: 'white', fontFamily: 'Open Sans', fontSize: '15px', justifyContent: 'center'}}>Ruby on Rails</Tab>
         </Tabs>
 
           <Grid>
