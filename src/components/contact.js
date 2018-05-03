@@ -14,7 +14,7 @@ class Contact extends Component {
               alt="avatar"
               style={{height: '280px', paddingTop: '3em'}}
               />
-            <h2 style={{width: '75%', margin: 'auto', paddingTop: '1em', fontSize: '35px'}}> Ethel Jerez </h2>
+          
 
           </Cell>
           <Cell col={6} style={{justifyContent: 'center'}}>
