@@ -14,7 +14,7 @@ class Contact extends Component {
               alt="avatar"
               style={{height: '280px', paddingTop: '3em'}}
               />
-          
+
 
           </Cell>
           <Cell col={6} style={{justifyContent: 'center'}}>
@@ -24,7 +24,7 @@ class Contact extends Component {
           <div className="contact-list">
             <List >
               <ListItem>
-                <ListItemContent style={{fontSize: '23px', fontFamily: 'Fira Mono'}}>
+                <ListItemContent style={{fontSize: '24px', fontFamily: 'Fira Mono'}}>
                   <i className='fa fa-phone-square' aria-hidden="true"/>
                   (786) 376-2406
                 </ListItemContent>
