@@ -10,7 +10,7 @@ class Contact extends Component {
           <Cell col={6}>
 
             <img
-              src="http://www.avatarys.com/var/albums/Cool-Avatars/Facebook-Avatars/500x500-facebook-avatars/cute-fluffy-monster-facebook-avatar-500x500.png?m=1455128230"
+              src="https://static1.squarespace.com/static/51390207e4b0f3422dd48a5f/t/51606696e4b0e13a2587088e/1365272214841/contact-us-icon-set-4-350.png"
               alt="avatar"
               style={{height: '280px', paddingTop: '3em'}}
               />
