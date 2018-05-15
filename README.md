@@ -12,18 +12,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-## Supported Browsers
+### Supported Browsers
 
 By default, the generated project uses the latest version of React.
 
 You can refer [to the React documentation](https://reactjs.org/docs/react-dom.html#browser-support) for more information about supported browsers.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Built With:
+## Built With:
 React.js
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Author:
+## Author:
 Ethel Jerez
 
 
