@@ -19,8 +19,7 @@ By default, the generated project uses the latest version of React.
 You can refer [to the React documentation](https://reactjs.org/docs/react-dom.html#browser-support) for more information about supported browsers.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Built With:
-React.js
+## Built With: React.js
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Author:
