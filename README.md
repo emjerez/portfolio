@@ -1,7 +1,7 @@
-My Portfolio Site
+## My Portfolio Site
 This site was created for my basic information to be up and accessible to the public. This is a basic portfolio site created by using React.js. 
 
-Getting Started:
+## Getting Started:
 In the project directory, you can run:
 
 ### `npm start`
